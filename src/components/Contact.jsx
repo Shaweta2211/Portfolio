@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../assets/css/style.css';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevData => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+
+    
+    alert('Thank you for your message!');
+    setFormData({ name: '', email: '', message: '' }); 
+  };
+
   return (
     <section className="contact-wrapper">
       <div className="contact-section">
@@ -20,11 +43,32 @@ const Contact = () => {
         <div className="contact-right">
           <div className="contact-card">
             <h3>Message</h3>
-            <form className="contact-form">
-              <input type="text" placeholder="Your name" required />
-              <input type="email" placeholder="Email address" required />
-              <textarea rows="4" placeholder="Type Message" required></textarea>
-              <button type="submit">send</button>
+            <form className="contact-form" onSubmit={handleSubmit}>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email address"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Type Message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+              ></textarea>
+              <button type="submit">Send</button>
             </form>
           </div>
         </div>

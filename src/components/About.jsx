@@ -22,9 +22,8 @@ export const About = () => {
                 📄 Download CV
               </a>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=shawetapan2211@gmail.com&su=Hiring Frontend Developer&body=Hi Shaweta,"
+                href="mailto:shawetapan2211@gmail.com"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="btn solid"
               >
                 🚀 Hire Me
