@@ -1,5 +1,4 @@
 import React from "react";
-import '../assets/css/style.css'
 
 const Navbar = ({ setActiveComponent }) => {
   return (
@@ -18,8 +17,4 @@ const Navbar = ({ setActiveComponent }) => {
   );
 };
 
- export default Navbar;
-
-
-
-
+export default Navbar;

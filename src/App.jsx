@@ -1,21 +1,3 @@
-// import Navbar from "./components/Navbar";
-// import { Home } from "./Pages/Home";
-
-// function App() {
-//   return (
-//     <>
-//     <Navbar/>
-    
-//       <Home />
-//     </>
-//   );
-// }
-
-// export default App;
-
-
-
-
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import { Home } from "./Pages/Home";
@@ -26,12 +8,12 @@ import { Certificates } from "./components/Certficates";
 import Contact from "./components/Contact";
 
 const App = () => {
-  const [activeComponent, setActiveComponent] = useState("about");
+  const [activeComponent, setActiveComponent] = useState("home");
 
   const renderComponent = () => {
     switch (activeComponent) {
       case "home":
-        return<Home />;
+        return <Home />;
       case "about":
         return <About />;
       case "skills":
@@ -43,7 +25,7 @@ const App = () => {
       case "contact":
         return <Contact />;
       default:
-        return <About />;
+        return <Home />;
     }
   };
 
@@ -58,4 +40,3 @@ const App = () => {
 };
 
 export default App;
-
