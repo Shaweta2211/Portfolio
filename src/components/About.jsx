@@ -1,15 +1,12 @@
 import React from "react";
 import "../assets/css/style.css";
-// import profileImg from "../assets/images/shaweta.png"; 
+
 
 export const About = () => {
   return (
     <section className="about-hero">
-      <div className="about-container">
-        {/* Heading */}
-        <div className="about-heading">
-          <h3>👩‍💻 About Me</h3>
-        </div>
+      <div className="about-container ">
+        
 
         <div className="about-main">
           {/* Left Section */}
@@ -35,12 +32,7 @@ export const About = () => {
             </div>
           </div>
 
-          {/* Right Section (Image) */}
-          <div className="about-right">
-            <div className="image-wrapper">
-              {/* <img src={profileImg} alt="Shaweta Sharma" /> */}
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
