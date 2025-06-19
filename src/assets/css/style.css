@@ -78,12 +78,12 @@
 
 
 
-.navbar {display: flex;justify-content: space-between;align-items: center;background-color: #ffffff;padding: 15px 30px;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+.navbar {display: flex;justify-content: space-between;align-items: center;background-color: #ffffff;padding: 10px 30px;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
 .logo {font-size: 1.5rem;font-weight: bold;}
 .nav-links {list-style: none;display: flex;gap: 20px;}
-.nav-links li button {background: none;border: none;font-size: 1rem;cursor: pointer;color: #333;}
+.nav-links li button {background: none;border: none;font-size: 20px;cursor: pointer;color: #333; margin-top: 10px;}
 .nav-links li button:hover { color:#6c63ff;}
-.btn {padding: 6px 12px;background-color: #6c63ff; color: white;border-radius: 4px;text-decoration: none;}
+.btn {padding: 6px 12px;background-color: #6c63ff; color: white;border-radius: 4px;text-decoration: none; margin-top: 10px;}
 
 
 @keyframes fadeInUp {
