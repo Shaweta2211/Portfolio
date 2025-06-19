@@ -1,4 +1,6 @@
 import React from "react";
+import shawetaresume from "../assets/ShawetaResume.pdf"
+
 
 const Navbar = ({ setActiveComponent }) => {
   return (
@@ -12,7 +14,7 @@ const Navbar = ({ setActiveComponent }) => {
         <li><button onClick={() => setActiveComponent("certificate")}>Certificates</button></li>
         <li><button onClick={() => setActiveComponent("project")}>Projects</button></li>
         <li><button onClick={() => setActiveComponent("contact")}>Contact</button></li>
-        <li><a href="/Shaweta Resume (2) (1).pdf" download className="btn">Download CV</a></li>
+        <li><a href={shawetaresume} download className="btn">Download CV</a></li>
       </ul>
     </nav>
   );
