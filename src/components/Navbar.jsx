@@ -11,7 +11,7 @@ const Navbar = ({ setActiveComponent }) => {
         <li><button onClick={() => setActiveComponent("experience")}>Experience</button></li>
         <li><button onClick={() => setActiveComponent("certificate")}>Certificate</button></li>
         <li><button onClick={() => setActiveComponent("contact")}>Contact</button></li>
-        <li><a href="/cv.pdf" download className="btn">Download CV</a></li>
+        <li><a href="/Shaweta_CV.pdf" download className="btn">Download CV</a></li>
       </ul>
     </nav>
   );
