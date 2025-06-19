@@ -10,7 +10,7 @@ export const Projects = () => {
       icon: "💼",
       description: "A sleek personal portfolio built with React and styled components.",
       image: "/images/portfolio.png",
-      link: "https://shawetaportfolio.netlify.app/"
+      link: "https://github.com/Shaweta2211/Portfolio"
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export const Projects = () => {
       icon: "🏠",
       description: "A MERN stack property rental platform for listing, browsing, and renting properties.",
       image: "/images/rentify.png",
-      link: "https://rentify.vercel.app"
+      link: "https://github.com/Shaweta2211/Rentify-Rental-Property-Website"
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ export const Projects = () => {
       icon: "🛒",
       description: "A feature-rich e-commerce site built with React and integrated shopping cart.",
       image: "/images/ecomus.png",
-      link: "https://shawetaecomus.netlify.app/"
+      link: "https://github.com/Shaweta2211/Ecommerce-Website"
     }
   ];
 
