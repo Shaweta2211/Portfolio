@@ -18,7 +18,7 @@ export const About = () => {
               I design and develop engaging, accessible, and responsive websites using modern web technologies. With hands-on experience in the MERN stack, I turn creative ideas into real-world applications.
             </p>
             <div className="about-buttons">
-              <a href="/Shaweta_CV.pdf" className="btn glass" download>
+              <a href="/public/Shaweta Resume (2) (1).pdf" className="btn glass" download>
                 📄 Download CV
               </a>
               <a

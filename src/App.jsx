@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
 import { Certificates } from "./components/Certficates";
+import { Projects } from "./components/Projects";
 import Contact from "./components/Contact";
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
         return <Experience />;
       case "certificate":
         return <Certificates />;
+        case "project":
+          return <Projects />
       case "contact":
         return <Contact />;
       default:

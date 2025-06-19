@@ -37,7 +37,7 @@
 
 .experience-section {padding: 60px 20px;background-color: #f7f9fc;}
 .experience-container {max-width: 1200px;margin: 0 auto;}
-.experience-heading {font-size: 2.2rem;font-weight: 600;margin-bottom: 30px;text-align: center;}
+.experience-heading {font-size: 2.2rem;font-weight: 700;margin-bottom: 30px;text-align: center;}
 .experience-card {background: #fff;border-radius: 12px;padding: 25px;box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);margin-bottom: 30px; animation: fadeInUp 0.8s ease forwards;
   opacity: 0;}
 .experience-card h4 {font-size: 1.4rem; color: #333;margin-bottom: 5px;}
@@ -82,8 +82,8 @@
 .logo {font-size: 1.5rem;font-weight: bold;}
 .nav-links {list-style: none;display: flex;gap: 20px;}
 .nav-links li button {background: none;border: none;font-size: 1rem;cursor: pointer;color: #333;}
-.nav-links li button:hover { color: #007bff;}
-.btn {padding: 6px 12px;background-color: #007bff; color: white;border-radius: 4px;text-decoration: none;}
+.nav-links li button:hover { color:#6c63ff;}
+.btn {padding: 6px 12px;background-color: #6c63ff; color: white;border-radius: 4px;text-decoration: none;}
 
 
 @keyframes fadeInUp {
@@ -115,7 +115,87 @@
 
 
 
+.projects-section {
+  padding: 60px 20px;
+  background-color: #f7f9fc;
+}
 
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* === Grid === */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* === Project Card === */
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(128, 128, 128, 0.2); /* grey initial shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  animation: zoomIn 0.8s ease forwards;
+}
+
+.project-card:hover {
+  transform: scale(1.08);
+  z-index: 10;
+  box-shadow: 0 15px 30px rgba(128, 128, 128, 0.3); /* grey shadow on hover */
+}
+
+/* === Card Content === */
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project-card h3 span {
+  margin-right: 8px;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  text-decoration: none;
+  background:  #6c63ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.project-card a:hover {
+  background: #0056b3;
+}
 
 
 
