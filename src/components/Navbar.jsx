@@ -21,3 +21,5 @@ const Navbar = ({ setActiveComponent }) => {
 };
 
 export default Navbar;
+
+
