@@ -14,9 +14,9 @@ import githubIcon from "../assets/images/github.png";
 
 export const Skills = () => {
   const skillsData = [
-    { name: "HTML", icon: htmlIcon },
-    { name: "CSS", icon: cssIcon },
-    { name: "Bootstrap", icon: bootstrapIcon },
+    { name: "HTML5", icon: htmlIcon },
+    { name: "CSS3", icon: cssIcon },
+    { name: "Bootstrap5", icon: bootstrapIcon },
     { name: "JavaScript", icon: jsIcon },
     { name: "React.js", icon: reactIcon },
     { name: "Node.js", icon: nodeIcon },
