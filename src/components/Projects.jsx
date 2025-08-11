@@ -27,6 +27,13 @@ export const Projects = () => {
       description: "A feature-rich e-commerce site built with React and integrated shopping cart.",
       // image: "/images/ecomus.png",
       link: "https://github.com/Shaweta2211/Ecommerce-Website"
+    },
+    {
+      id: 4,
+      title: "Cafeu – Restaurant Website",
+      icon: "🍽️",
+      description: "A modern restaurant website built with Next.js, featuring a dynamic menu and cart system.",
+      link: "https://github.com/Shaweta2211/Caffe-Site"
     }
   ];
 
