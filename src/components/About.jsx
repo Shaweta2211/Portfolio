@@ -23,7 +23,7 @@ export const About = () => {
                 📄 Download CV
               </a>
               <a
-                href="mailto:shawetapan2211@gmail.com"
+                href="mailto:sharma@gmail.com"
                 target="_blank"
                 className="btn solid"
               >

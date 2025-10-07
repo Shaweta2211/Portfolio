@@ -26,22 +26,23 @@ export const Projects = () => {
       icon: "🛒",
       description: "A feature-rich e-commerce site built with React and integrated shopping cart.",
       // image: "/images/ecomus.png",
-      link: "https://shawetaecomus.netlify.app/"
+      link: "https://github.com/Shaweta2211/Ecommerce-Website"
     },
     {
       id: 4,
       title: "Cafeu – Restaurant Website",
       icon: "🍽️",
       description: "A modern restaurant website built with Next.js, featuring a dynamic menu and cart system.",
-      link: "https://caffe-site-ib9e.vercel.app/"
+      link: "https://github.com/Shaweta2211/Caffe-Site",
     },
-    {
+     {
       id: 5,
       title: "Project Dashboard",
       icon: "📊",
       description: "Overview of all your projects with analytics, status, and progress tracking.",
-      link: "https://dashboard-y2j4.vercel.app/dashboard/gaming", // internal link to your dashboard page
+      link: "https://github.com/Shaweta2211/Dashboard",
     },
+    
   ];
 
   return (
