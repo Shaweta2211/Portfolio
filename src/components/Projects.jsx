@@ -10,7 +10,7 @@ export const Projects = () => {
       icon: "💼",
       description: "A sleek personal portfolio built with React and styled components.",
       // image: "/images/portfolio.png",
-      link: "https://github.com/Shaweta2211/Portfolio"
+      link: "https://shawetaportfolio.netlify.app/"
     },
     {
       id: 2,
@@ -26,15 +26,22 @@ export const Projects = () => {
       icon: "🛒",
       description: "A feature-rich e-commerce site built with React and integrated shopping cart.",
       // image: "/images/ecomus.png",
-      link: "https://github.com/Shaweta2211/Ecommerce-Website"
+      link: "https://shawetaecomus.netlify.app/"
     },
     {
       id: 4,
       title: "Cafeu – Restaurant Website",
       icon: "🍽️",
       description: "A modern restaurant website built with Next.js, featuring a dynamic menu and cart system.",
-      link: "https://github.com/Shaweta2211/Caffe-Site"
-    }
+      link: "https://caffe-site-ib9e.vercel.app/"
+    },
+    {
+      id: 5,
+      title: "Project Dashboard",
+      icon: "📊",
+      description: "Overview of all your projects with analytics, status, and progress tracking.",
+      link: "https://dashboard-y2j4.vercel.app/dashboard/gaming", // internal link to your dashboard page
+    },
   ];
 
   return (
